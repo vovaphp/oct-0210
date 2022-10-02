@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #292942;
+    background-image:url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    width: 70%;
+    background-color: white;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+div.form{
+    width: 100%;
+}
+.pre-form{
+    width: 1000px;
+/*    background-color: #dcdada;
+    border: 6px solid #9b9999;*/
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+form.add{
+    width: 800px;
+    background-color: #dcdada;
+    border: 6px solid #9b9999;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+form.add input,form.add textarea{
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 630px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+textarea {
+    height: 250px;
+    margin-top: 20px;
+}
+.ck-rounded-corners{
+    margin-bottom: 20px;
+}
+table.adm-art{
+    border-collapse: collapse;
+}
+table.adm-art td{
+    border: 1px solid black;
+    padding: 25px;
+    min-width: 100px;
+    font-size: 26px;
+}
+thead{
+    background-color: #b0aeae;
+}
+div.edit-button{
+    display: flex;
+    justify-content: space-around;
+}
+input.del{
+    background-color: #fc9683;
+    padding: 5px;
+    border: 1px solid #bdbbbb;
+    cursor: pointer;
+}
+input.edit{
+    background-color: #fcd683;
+    padding: 5px;
+    border: 1px solid #bdbbbb;
+    cursor: pointer;
+}
+h2{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -30px;
+}
+.art-view{
+    background-color: #efeeee;
+    border: 6px solid #9b9999;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.image{
+    padding: 10px;
+}
+.time{
+    padding: 20px;
+}
+.content{
+    text-align: justify;
+    font-size: 18px;
+}
+ul#main-menu{
+    list-style-type: none;
+    text-transform: uppercase;
+    background-color: #4d4d4d;
+    width: 105%;
+    margin-left: -30px;
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 6px solid #fd360e;
+}
+ul#main-menu li{
+    padding: 15px;
+    border-right: 1px solid #797979;
+}
+ul#main-menu li:hover{
+    background-color: #fd360e;
+    cursor: pointer;
+}
+ul#main-menu a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+}
