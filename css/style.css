@@ -11,7 +11,7 @@ body{
 main{
     width: 70%;
     background-color: white;
-    min-height: 200px;
+    min-height: 800px;
     margin: 0 auto;
     padding: 25px;
     overflow: hidden;
